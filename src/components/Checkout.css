@@ -1,0 +1,15 @@
+.checkout-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.checkout-item{
+    /* background-color: gray; */
+    padding: 0 40px;
+    margin-bottom: 20px;
+}
+.card-info1 h2,h3,p{
+    margin: 0;
+    padding: 0;
+}

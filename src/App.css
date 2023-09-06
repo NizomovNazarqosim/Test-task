@@ -1,0 +1,27 @@
+.app h1 {
+  margin: 1rem 0;
+  font-size: 70px;
+  color: #ffe400;
+  text-align: center;
+  text-decoration: underline;
+}
+.filter{
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.filter p{
+  background-color: red;
+  /* height: 30px; */
+  padding: 7px;
+  border-radius: 14px;
+  color: white;
+
+  cursor: pointer;
+}
+.filter input{
+  height: 28px;
+}
