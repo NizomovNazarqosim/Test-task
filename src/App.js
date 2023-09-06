@@ -35,7 +35,6 @@ const getAllProducts = () => {
   .then(res => res.json())
   .then(data => {
     if(searchValue){
-      console.log(data.products, 'jndnjas')
       const results = data.products.filter((product) => product.title.toLowerCase().includes(searchValue.toLowerCase()))
       setProducts(results)
     }
